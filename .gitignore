@@ -1,0 +1,7 @@
+*.csv
+*.terraform*
+terraform.*
+outfile
+*.zip
+keys/*
+*.bak
