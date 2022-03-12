@@ -3,5 +3,5 @@
 terraform.*
 outfile
 *.zip
-keys/*
+keys/mykey*
 *.bak
