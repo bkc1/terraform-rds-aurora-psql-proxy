@@ -13,11 +13,6 @@ variable "private_key_path" {
   default     = "keys/mykey"
 } 
 
-variable "key_name" {
-  description = "Name of private key"
-  default     = "myEnv"
-}
-
 variable "vpc_cidr_block" {
   default = "10.0.0.0/16"
 }
@@ -30,6 +25,3 @@ variable "rds_instance_type" {
   default = "db.r6g.large"
 }
 
-# variable "db_password" {
-#   default = "Mypw123-"
-# }
